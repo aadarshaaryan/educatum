@@ -215,4 +215,7 @@ footer div p{
   width:100%;
   background-color:white;
   color:red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }

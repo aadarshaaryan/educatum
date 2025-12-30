@@ -197,3 +197,17 @@ display: grid;
   position:relative;
   bottom:50px;
 }
+footer div{
+  background-color: black;
+  height:10vh;
+  width:100%;
+  margin:10px 0 0 0;
+  padding:30px 5px 20px 5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+footer div p{
+  color:gray;
+  font-size:10px;
+}

@@ -46,6 +46,7 @@ ul li a:hover {
 
 .hero {
   position: relative;
+  z-index: 0;   /* ⭐ THIS IS REQUIRED */
   width: 100%;
   height: 50vh;
   display: flex;
@@ -60,11 +61,13 @@ ul li a:hover {
   content: "";
   position: absolute;
   inset: 0;
-background-image:
+  background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("1766853944752.jpg") center / cover no-repeat;
+    url("1766853944752.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: -1;
-  
 }
 
 .box3 {

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  background-color: blue;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  display: inline; 
+  list-style: none;
+  margin: 0 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: aqua;
+}
+
+.img1 {
+  height: 45px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  border-radius: 35px;
+}
+
+.ctetbox1, .lastline{
+  background-color: #d6d6d6;
+  margin: 35px 10px;
+  padding: 25px 10px;
+  border-radius: 10px;
+  
+}
+.ctetbox2{
+  margin: 35px 20px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.ctetbox3{
+  margin: 35px 20px;
+}
+.span1, .span2, .span3{
+  font-weight: bold;
+}
+td{
+    background-color:white;
+    color:black;
+    border:none;
+    padding:10px 2px;
+    font-weight:bold;
+}
+th{
+    background-color:black;
+    color:white;
+}
+table {
+    background-color:black;
+    margin-left: auto;
+  margin-right: auto;
+}
+.ctetbox4{
+  margin: 0;
+}
+.syllabus-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.syllabus-section h4 {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid #000;
+  color:white;
+  background-color:blue;
+  margin-top:10px;
+  margin-bottom:10px;
+  transition: background-color 0.3s ease;
+  cursor:pointer;
+}
+.download-btn:hover{
+  background-color:aqua;
+}
+.officiallink{
+  text-decoration:underline;
+  font-weight: bolder;
+  color:#6395ff;
+  margin: 20px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.officiallinkdiv{
+  justify-content: center;
+  align-item:center;
+  display:flex;
+}
+.lastline{
+  color:red;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+footer div{
+  background-color: black;
+  height:10vh;
+  width:100%;
+  margin:10px 0 0 0;
+  padding:30px 5px 20px 5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+footer div p{
+  color:gray;
+  font-size:10px;
+}

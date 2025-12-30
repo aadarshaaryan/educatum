@@ -7,10 +7,8 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  box-sizing:border-box;
 }
 
-}
 
 nav {
   background-color: blue;
@@ -52,7 +50,6 @@ ul li a:hover {
 
 .hero {
   position: relative;
-  z-index: 0;   /* ⭐ THIS IS REQUIRED */
   width: 100%;
   height: 50vh;
   display: flex;
@@ -67,16 +64,12 @@ ul li a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background-image:
+background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("1766853944752.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    url("https://i.postimg.cc/DZdBCBRw/1766853944752.png") center / cover no-repeat;
   z-index: -1;
-}
   
-
+}
 
 .box3 {
   background-color: gray;
@@ -196,114 +189,11 @@ display: grid;
   bottom:50px;
 }
   
-
-.ctetbox1, .lastline{
-  background-color: #d6d6d6;
-  margin: 35px 10px;
-  padding: 25px 10px;
-  border-radius: 10px;
-  
-}
-.ctetbox2{
-  margin: 35px 20px;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-}
-.ctetbox3{
-  margin: 35px 20px;
-}
-.span1, .span2, .span3{
-  font-weight: bold;
-}
-td{
-    background-color:white;
-    color:black;
-    border:none;
-    padding:10px 2px;
-    font-weight:bold;
-}
-th{
-    background-color:black;
-    color:white;
-}
-table {
-    background-color:black;
-    margin-left: auto;
-  margin-right: auto;
-}
-.ctetbox4{
-  margin: 0;
-}
-.syllabus-section {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-  font-family: Arial, sans-serif;
+.span1{
+  color:#40a3ff;
 }
 
-
-.syllabus-section h4 {
-  margin-bottom: 20px;
-  line-height: 1.5;
+.box5{
+  position:relative;
+  bottom:50px;
 }
-
-.download-btn {
-  display: inline-block;
-  padding: 12px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-  border: 1px solid #000;
-  color:white;
-  background-color:blue;
-  margin-top:10px;
-  margin-bottom:10px;
-  transition: background-color 0.3s ease;
-  cursor:pointer;
-}
-.download-btn:hover{
-  background-color:aqua;
-}
-.officiallink{
-  text-decoration:underline;
-  font-weight: bolder;
-  color:#6395ff;
-  margin: 20px;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-}
-.officiallinkdiv{
-  justify-content: center;
-  align-item:center;
-  display:flex;
-}
-.lastline{
-  color:red;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-}
-footer div{
-  background-color: black;
-  height:10vh;
-  width:100%;
-  margin:10px 0 0 0;
-  padding:30px 5px 20px 5px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-footer div p{
-  color:gray;
-  font-size:10px;
-}
-
-
-
-
-
-

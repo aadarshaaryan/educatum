@@ -115,6 +115,7 @@ table {
 }
 .download-btn:hover{
   background-color:aqua;
+  animation:btn 0.3s ease forwards;
 }
 .officiallink{
   text-decoration:underline;
@@ -150,4 +151,14 @@ footer div{
 footer div p{
   color:gray;
   font-size:10px;
+}
+
+@keyframes btn{
+    from{
+        
+    }
+    
+    to{
+        transform:scale(1.1);
+    }
 }
